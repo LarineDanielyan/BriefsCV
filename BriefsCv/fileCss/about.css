@@ -1,0 +1,30 @@
+.about {
+    padding: 50px;
+  }
+  
+  .aboutContainer {
+    width: 800px;
+  }
+  
+  .aboutHeader {
+    text-align: center;
+    font-family: monospace;
+    color: #9b5a00;
+  }
+  
+  .aboutSubHeader {
+    font-family: monospace;
+    color: #9b5a00;
+  }
+  
+  .aboutTextBlock {
+    text-align: center;
+    line-height: 3;
+  }
+  
+   .textSpan {
+  
+    color:rgb(33, 199, 221); 
+  
+
+ } 

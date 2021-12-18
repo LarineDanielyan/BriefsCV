@@ -1,0 +1,79 @@
+.wrapper {
+    width: 800px;
+    margin: auto;
+   
+}
+
+.cvWrapper {
+    border: 1px solid ;
+    background-color: #F8F8FF;
+
+}
+
+.header {
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    grid-auto-rows: minmax(200px, 200px);
+    border-bottom: groove;
+    background-color:#F8F8FF	;
+}
+
+.personName {
+    color: #131516;
+    font-family: monospace;
+}
+
+.personImg {
+    grid-column-start: 3;
+}
+
+.personImg>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.infoBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info {
+    display: grid;
+    color: #0e0f0f;
+    font-family: monospace;
+    padding-left: 50px;
+    border-bottom: inset;
+    padding: 20px;
+}
+
+.infoText {
+    margin: 1px;
+    font-weight: 700;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    color: #000;
+}
+
+.infoHeader,
+.infoWork {
+    font-weight: 700;
+    color: rgb(8, 8, 8);
+}
+
+.infoSubHeader {
+    font: small-caption;
+}
+
+.subHeader {
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.infoSubText {
+    font-style: normal;
+    
+}

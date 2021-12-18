@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../poto/nkar.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: hsl(210, 2%, 21%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+p {
+    color: rgb(110, 170, 189);
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+p:hover {
+    color: #f6f8f8;
+}
+
+span {
+    color: #64c3e6;
+    line-height: 60px;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+ul>li>a {
+    color: rgb(165, 141, 141);
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+    white-space: nowrap;
+    height: 60px;
+}
+
+ul>li>a:hover {
+    color: #647f8a;
+}
+
+ul>li>a:active {
+    color: rgb(226, 64, 64);
+}
+
+.item:hover {
+    opacity: 1.0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.add-new-member{
+    background-color: #314755;
+    border: hidden;
+    width: 25%;
+    height: 360px;
+    padding: 10px;
+    margin: auto;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+ 
+}
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 10px;
+    align-content: center;
+  }
+  .column, input[type=submit] {
+    width: 50%;
+    margin-top: 0;
+  }
+  
